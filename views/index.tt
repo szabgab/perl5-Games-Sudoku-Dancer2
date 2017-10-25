@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>Sudoku using Perl Dancer 2</title>
+  <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="sudoku.js"></script>
+</head>
+<body>
+
+<div class="page" id="main-page">
+   <h1 id="title"></h1>
+   <button id="new_game">New Game</button> with <input id="number_of_spaces" value="20"> empty spaces.
+</div>
+
+<div class="page" id="board-page">
+   <button id="quit">Quit</button>
+   <table id="board">
+   </table>
+</div>
+
+
+ 
+</body>
+</html>
